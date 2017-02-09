@@ -7,20 +7,41 @@
 //
 
 #import "AppDelegate.h"
+#import "YeeChannelViewController.h"
 
 @interface AppDelegate ()
-
+{
+    
+    
+}
 @end
 
 @implementation AppDelegate
 
+// 配置App中的控件的默认属性
+- (void)configAppearance
+{
+    [[UINavigationBar appearance] setBarTintColor:kNavBarThemeColor];
+    [[UINavigationBar appearance] setTintColor:kWhiteColor];
+    
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = kWhiteColor;
+    shadow.shadowOffset = CGSizeMake(0, 0);
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSForegroundColorAttributeName:kWhiteColor,
+                                                           NSShadowAttributeName:shadow,
+                                                           NSFontAttributeName:kCommonLargeTextFont
+                                                           }];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   
+    [self configAppearance];
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
-    
+    self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:[YeeChannelViewController new]];
     return YES;
 }
 

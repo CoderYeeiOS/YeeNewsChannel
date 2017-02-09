@@ -13,7 +13,18 @@
 		CD0B983F1E4C59B000D3E247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0B983E1E4C59B000D3E247 /* Assets.xcassets */; };
 		CD0B984D1E4C59B000D3E247 /* YeeNewsChannelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B984C1E4C59B000D3E247 /* YeeNewsChannelTests.m */; };
 		CD0B98581E4C59B000D3E247 /* YeeNewsChannelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98571E4C59B000D3E247 /* YeeNewsChannelUITests.m */; };
-		CD0B986D1E4C611900D3E247 /* UIView+YeeFrameExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B986C1E4C611900D3E247 /* UIView+YeeFrameExt.m */; };
+		CD0B98771E4C61EB00D3E247 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98711E4C61EB00D3E247 /* UIColor+expanded.m */; };
+		CD0B98781E4C61EB00D3E247 /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98731E4C61EB00D3E247 /* UIColor+MLPFlatColors.m */; };
+		CD0B98791E4C61EB00D3E247 /* UIView+YeeFrameExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98761E4C61EB00D3E247 /* UIView+YeeFrameExt.m */; };
+		CD0B98821E4C63EE00D3E247 /* YeeChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98811E4C63EE00D3E247 /* YeeChannelViewController.m */; };
+		CD0B98851E4C66A400D3E247 /* YeeBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98841E4C66A400D3E247 /* YeeBaseModel.m */; };
+		CD0B98881E4C688F00D3E247 /* YeeChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98871E4C688F00D3E247 /* YeeChannelModel.m */; };
+		CD0B98951E4C698400D3E247 /* LMArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B988B1E4C698400D3E247 /* LMArrow.m */; };
+		CD0B98961E4C698400D3E247 /* LMListBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B988D1E4C698400D3E247 /* LMListBar.m */; };
+		CD0B98971E4C698400D3E247 /* LMListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B988F1E4C698400D3E247 /* LMListItem.m */; };
+		CD0B98981E4C698400D3E247 /* YeeDetailsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98911E4C698400D3E247 /* YeeDetailsListView.m */; };
+		CD0B98991E4C698400D3E247 /* YeeNavButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98941E4C698400D3E247 /* YeeNavButton.m */; };
+		CD0B989C1E4C6F3700D3E247 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B989B1E4C6F3700D3E247 /* CustomTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +62,34 @@
 		CD0B98591E4C59B000D3E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0B98661E4C5EDE00D3E247 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CD0B98691E4C5F7600D3E247 /* YeeMacHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YeeMacHeader.h; sourceTree = "<group>"; };
-		CD0B986B1E4C611900D3E247 /* UIView+YeeFrameExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YeeFrameExt.h"; sourceTree = "<group>"; };
-		CD0B986C1E4C611900D3E247 /* UIView+YeeFrameExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeFrameExt.m"; sourceTree = "<group>"; };
+		CD0B986F1E4C61EB00D3E247 /* ColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		CD0B98701E4C61EB00D3E247 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		CD0B98711E4C61EB00D3E247 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		CD0B98721E4C61EB00D3E247 /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		CD0B98731E4C61EB00D3E247 /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
+		CD0B98751E4C61EB00D3E247 /* UIView+YeeFrameExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YeeFrameExt.h"; sourceTree = "<group>"; };
+		CD0B98761E4C61EB00D3E247 /* UIView+YeeFrameExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeFrameExt.m"; sourceTree = "<group>"; };
+		CD0B987A1E4C622100D3E247 /* YeeColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YeeColorHeader.h; sourceTree = "<group>"; };
+		CD0B987B1E4C626A00D3E247 /* YeeFontHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YeeFontHeader.h; sourceTree = "<group>"; };
+		CD0B98801E4C63EE00D3E247 /* YeeChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeChannelViewController.h; sourceTree = "<group>"; };
+		CD0B98811E4C63EE00D3E247 /* YeeChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeChannelViewController.m; sourceTree = "<group>"; };
+		CD0B98831E4C66A400D3E247 /* YeeBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeBaseModel.h; sourceTree = "<group>"; };
+		CD0B98841E4C66A400D3E247 /* YeeBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeBaseModel.m; sourceTree = "<group>"; };
+		CD0B98861E4C688F00D3E247 /* YeeChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeChannelModel.h; sourceTree = "<group>"; };
+		CD0B98871E4C688F00D3E247 /* YeeChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeChannelModel.m; sourceTree = "<group>"; };
+		CD0B988A1E4C698400D3E247 /* LMArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMArrow.h; sourceTree = "<group>"; };
+		CD0B988B1E4C698400D3E247 /* LMArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMArrow.m; sourceTree = "<group>"; };
+		CD0B988C1E4C698400D3E247 /* LMListBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMListBar.h; sourceTree = "<group>"; };
+		CD0B988D1E4C698400D3E247 /* LMListBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMListBar.m; sourceTree = "<group>"; };
+		CD0B988E1E4C698400D3E247 /* LMListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMListItem.h; sourceTree = "<group>"; };
+		CD0B988F1E4C698400D3E247 /* LMListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMListItem.m; sourceTree = "<group>"; };
+		CD0B98901E4C698400D3E247 /* YeeDetailsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeDetailsListView.h; sourceTree = "<group>"; };
+		CD0B98911E4C698400D3E247 /* YeeDetailsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeDetailsListView.m; sourceTree = "<group>"; };
+		CD0B98921E4C698400D3E247 /* YeeHomeNavHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeHomeNavHeader.h; sourceTree = "<group>"; };
+		CD0B98931E4C698400D3E247 /* YeeNavButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeNavButton.h; sourceTree = "<group>"; };
+		CD0B98941E4C698400D3E247 /* YeeNavButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeNavButton.m; sourceTree = "<group>"; };
+		CD0B989A1E4C6F3700D3E247 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		CD0B989B1E4C6F3700D3E247 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +160,9 @@
 		CD0B98311E4C59B000D3E247 /* YeeNewsChannel */ = {
 			isa = PBXGroup;
 			children = (
-				CD0B986A1E4C611900D3E247 /* YeeCategory */,
 				CD0B98671E4C5F6800D3E247 /* YeeChannelClass */,
+				CD0B987C1E4C62C800D3E247 /* YeeLib */,
+				CD0B986A1E4C611900D3E247 /* YeeCategory */,
 				CD0B98681E4C5F6800D3E247 /* YeeHeader */,
 				CD0B98661E4C5EDE00D3E247 /* PrefixHeader.pch */,
 				CD0B98351E4C59B000D3E247 /* AppDelegate.h */,
@@ -165,6 +203,9 @@
 		CD0B98671E4C5F6800D3E247 /* YeeChannelClass */ = {
 			isa = PBXGroup;
 			children = (
+				CD0B987D1E4C63C600D3E247 /* YeeControllerVc */,
+				CD0B987E1E4C63C600D3E247 /* YeeModel */,
+				CD0B987F1E4C63C600D3E247 /* YeeView */,
 			);
 			path = YeeChannelClass;
 			sourceTree = "<group>";
@@ -173,6 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				CD0B98691E4C5F7600D3E247 /* YeeMacHeader.h */,
+				CD0B987A1E4C622100D3E247 /* YeeColorHeader.h */,
+				CD0B987B1E4C626A00D3E247 /* YeeFontHeader.h */,
 			);
 			path = YeeHeader;
 			sourceTree = "<group>";
@@ -180,10 +223,86 @@
 		CD0B986A1E4C611900D3E247 /* YeeCategory */ = {
 			isa = PBXGroup;
 			children = (
-				CD0B986B1E4C611900D3E247 /* UIView+YeeFrameExt.h */,
-				CD0B986C1E4C611900D3E247 /* UIView+YeeFrameExt.m */,
+				CD0B986E1E4C61EB00D3E247 /* UIColor */,
+				CD0B98741E4C61EB00D3E247 /* UIView */,
 			);
 			path = YeeCategory;
+			sourceTree = "<group>";
+		};
+		CD0B986E1E4C61EB00D3E247 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B986F1E4C61EB00D3E247 /* ColorMacro.h */,
+				CD0B98701E4C61EB00D3E247 /* UIColor+expanded.h */,
+				CD0B98711E4C61EB00D3E247 /* UIColor+expanded.m */,
+				CD0B98721E4C61EB00D3E247 /* UIColor+MLPFlatColors.h */,
+				CD0B98731E4C61EB00D3E247 /* UIColor+MLPFlatColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		CD0B98741E4C61EB00D3E247 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B98751E4C61EB00D3E247 /* UIView+YeeFrameExt.h */,
+				CD0B98761E4C61EB00D3E247 /* UIView+YeeFrameExt.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CD0B987C1E4C62C800D3E247 /* YeeLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YeeLib;
+			sourceTree = "<group>";
+		};
+		CD0B987D1E4C63C600D3E247 /* YeeControllerVc */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B98801E4C63EE00D3E247 /* YeeChannelViewController.h */,
+				CD0B98811E4C63EE00D3E247 /* YeeChannelViewController.m */,
+			);
+			path = YeeControllerVc;
+			sourceTree = "<group>";
+		};
+		CD0B987E1E4C63C600D3E247 /* YeeModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B98861E4C688F00D3E247 /* YeeChannelModel.h */,
+				CD0B98871E4C688F00D3E247 /* YeeChannelModel.m */,
+				CD0B98831E4C66A400D3E247 /* YeeBaseModel.h */,
+				CD0B98841E4C66A400D3E247 /* YeeBaseModel.m */,
+			);
+			path = YeeModel;
+			sourceTree = "<group>";
+		};
+		CD0B987F1E4C63C600D3E247 /* YeeView */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B989A1E4C6F3700D3E247 /* CustomTableView.h */,
+				CD0B989B1E4C6F3700D3E247 /* CustomTableView.m */,
+				CD0B98891E4C698400D3E247 /* YeeNavHeader */,
+			);
+			path = YeeView;
+			sourceTree = "<group>";
+		};
+		CD0B98891E4C698400D3E247 /* YeeNavHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B988A1E4C698400D3E247 /* LMArrow.h */,
+				CD0B988B1E4C698400D3E247 /* LMArrow.m */,
+				CD0B988C1E4C698400D3E247 /* LMListBar.h */,
+				CD0B988D1E4C698400D3E247 /* LMListBar.m */,
+				CD0B988E1E4C698400D3E247 /* LMListItem.h */,
+				CD0B988F1E4C698400D3E247 /* LMListItem.m */,
+				CD0B98901E4C698400D3E247 /* YeeDetailsListView.h */,
+				CD0B98911E4C698400D3E247 /* YeeDetailsListView.m */,
+				CD0B98921E4C698400D3E247 /* YeeHomeNavHeader.h */,
+				CD0B98931E4C698400D3E247 /* YeeNavButton.h */,
+				CD0B98941E4C698400D3E247 /* YeeNavButton.m */,
+			);
+			path = YeeNavHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,9 +490,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0B986D1E4C611900D3E247 /* UIView+YeeFrameExt.m in Sources */,
+				CD0B98991E4C698400D3E247 /* YeeNavButton.m in Sources */,
+				CD0B98971E4C698400D3E247 /* LMListItem.m in Sources */,
+				CD0B98781E4C61EB00D3E247 /* UIColor+MLPFlatColors.m in Sources */,
+				CD0B98881E4C688F00D3E247 /* YeeChannelModel.m in Sources */,
 				CD0B98371E4C59B000D3E247 /* AppDelegate.m in Sources */,
+				CD0B98851E4C66A400D3E247 /* YeeBaseModel.m in Sources */,
+				CD0B98791E4C61EB00D3E247 /* UIView+YeeFrameExt.m in Sources */,
 				CD0B98341E4C59B000D3E247 /* main.m in Sources */,
+				CD0B98981E4C698400D3E247 /* YeeDetailsListView.m in Sources */,
+				CD0B98961E4C698400D3E247 /* LMListBar.m in Sources */,
+				CD0B98821E4C63EE00D3E247 /* YeeChannelViewController.m in Sources */,
+				CD0B98951E4C698400D3E247 /* LMArrow.m in Sources */,
+				CD0B989C1E4C6F3700D3E247 /* CustomTableView.m in Sources */,
+				CD0B98771E4C61EB00D3E247 /* UIColor+expanded.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +632,7 @@
 			baseConfigurationReference = 986FE33C7882611DD90ABD7D /* Pods-YeeNewsChannel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 34TTMZE623;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YeeNewsChannel/PrefixHeader.pch";
 				INFOPLIST_FILE = YeeNewsChannel/Info.plist;
@@ -517,6 +648,7 @@
 			baseConfigurationReference = 438A3FDBBB95E849D5890982 /* Pods-YeeNewsChannel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 34TTMZE623;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YeeNewsChannel/PrefixHeader.pch";
 				INFOPLIST_FILE = YeeNewsChannel/Info.plist;

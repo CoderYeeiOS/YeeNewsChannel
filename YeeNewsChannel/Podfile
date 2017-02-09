@@ -8,6 +8,6 @@ target 'YeeNewsChannel' do
   pod 'Masonry', '~> 1.0.1'
   pod 'SwipeTableView', '~> 0.2.6'  #半塘首页悬停效果
   pod 'SDWebImage', '~> 3.7.5'
-
-
+  pod 'MJExtension', '~> 3.0.13'
+  
 end
