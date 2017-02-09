@@ -13,6 +13,7 @@
 		CD0B983F1E4C59B000D3E247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0B983E1E4C59B000D3E247 /* Assets.xcassets */; };
 		CD0B984D1E4C59B000D3E247 /* YeeNewsChannelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B984C1E4C59B000D3E247 /* YeeNewsChannelTests.m */; };
 		CD0B98581E4C59B000D3E247 /* YeeNewsChannelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98571E4C59B000D3E247 /* YeeNewsChannelUITests.m */; };
+		CD0B986D1E4C611900D3E247 /* UIView+YeeFrameExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B986C1E4C611900D3E247 /* UIView+YeeFrameExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,10 @@
 		CD0B98531E4C59B000D3E247 /* YeeNewsChannelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeNewsChannelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0B98571E4C59B000D3E247 /* YeeNewsChannelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeNewsChannelUITests.m; sourceTree = "<group>"; };
 		CD0B98591E4C59B000D3E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0B98661E4C5EDE00D3E247 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CD0B98691E4C5F7600D3E247 /* YeeMacHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YeeMacHeader.h; sourceTree = "<group>"; };
+		CD0B986B1E4C611900D3E247 /* UIView+YeeFrameExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YeeFrameExt.h"; sourceTree = "<group>"; };
+		CD0B986C1E4C611900D3E247 /* UIView+YeeFrameExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeFrameExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,10 @@
 		CD0B98311E4C59B000D3E247 /* YeeNewsChannel */ = {
 			isa = PBXGroup;
 			children = (
+				CD0B986A1E4C611900D3E247 /* YeeCategory */,
+				CD0B98671E4C5F6800D3E247 /* YeeChannelClass */,
+				CD0B98681E4C5F6800D3E247 /* YeeHeader */,
+				CD0B98661E4C5EDE00D3E247 /* PrefixHeader.pch */,
 				CD0B98351E4C59B000D3E247 /* AppDelegate.h */,
 				CD0B98361E4C59B000D3E247 /* AppDelegate.m */,
 				CD0B983E1E4C59B000D3E247 /* Assets.xcassets */,
@@ -151,6 +160,30 @@
 				CD0B98591E4C59B000D3E247 /* Info.plist */,
 			);
 			path = YeeNewsChannelUITests;
+			sourceTree = "<group>";
+		};
+		CD0B98671E4C5F6800D3E247 /* YeeChannelClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YeeChannelClass;
+			sourceTree = "<group>";
+		};
+		CD0B98681E4C5F6800D3E247 /* YeeHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B98691E4C5F7600D3E247 /* YeeMacHeader.h */,
+			);
+			path = YeeHeader;
+			sourceTree = "<group>";
+		};
+		CD0B986A1E4C611900D3E247 /* YeeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B986B1E4C611900D3E247 /* UIView+YeeFrameExt.h */,
+				CD0B986C1E4C611900D3E247 /* UIView+YeeFrameExt.m */,
+			);
+			path = YeeCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0B986D1E4C611900D3E247 /* UIView+YeeFrameExt.m in Sources */,
 				CD0B98371E4C59B000D3E247 /* AppDelegate.m in Sources */,
 				CD0B98341E4C59B000D3E247 /* main.m in Sources */,
 			);
@@ -469,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34TTMZE623;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YeeNewsChannel/PrefixHeader.pch";
 				INFOPLIST_FILE = YeeNewsChannel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -483,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34TTMZE623;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YeeNewsChannel/PrefixHeader.pch";
 				INFOPLIST_FILE = YeeNewsChannel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
