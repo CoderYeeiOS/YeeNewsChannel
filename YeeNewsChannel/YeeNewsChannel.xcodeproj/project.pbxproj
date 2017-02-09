@@ -7,73 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD80DAB71E20F24C000D841F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80DAB61E20F24C000D841F /* main.m */; };
-		CD80DABA1E20F24C000D841F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80DAB91E20F24C000D841F /* AppDelegate.m */; };
-		CD80DABD1E20F24C000D841F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80DABC1E20F24C000D841F /* ViewController.m */; };
-		CD80DAC21E20F24C000D841F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD80DAC11E20F24C000D841F /* Assets.xcassets */; };
-		CD80DAD01E20F24D000D841F /* YeeNewsChannelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80DACF1E20F24D000D841F /* YeeNewsChannelTests.m */; };
-		CD80DADB1E20F24D000D841F /* YeeNewsChannelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80DADA1E20F24D000D841F /* YeeNewsChannelUITests.m */; };
-		CD80DAF11E20F3CA000D841F /* YeeChannelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80DAF01E20F3CA000D841F /* YeeChannelCollectionViewCell.m */; };
-		CD80DAF41E20F6AB000D841F /* WJItemsControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80DAF31E20F6AB000D841F /* WJItemsControlView.m */; };
-		CDE6A3731E221654005DFF5B /* YeeChannelPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6A3721E221654005DFF5B /* YeeChannelPageView.m */; };
+		B16CF8CEF2FD7ABFC665BE8E /* Pods_YeeNewsChannel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B07AA245CF17C2823BC2EF /* Pods_YeeNewsChannel.framework */; };
+		CD0B98341E4C59B000D3E247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98331E4C59B000D3E247 /* main.m */; };
+		CD0B98371E4C59B000D3E247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98361E4C59B000D3E247 /* AppDelegate.m */; };
+		CD0B983F1E4C59B000D3E247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0B983E1E4C59B000D3E247 /* Assets.xcassets */; };
+		CD0B984D1E4C59B000D3E247 /* YeeNewsChannelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B984C1E4C59B000D3E247 /* YeeNewsChannelTests.m */; };
+		CD0B98581E4C59B000D3E247 /* YeeNewsChannelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B98571E4C59B000D3E247 /* YeeNewsChannelUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CD80DACC1E20F24D000D841F /* PBXContainerItemProxy */ = {
+		CD0B98491E4C59B000D3E247 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CD80DAAA1E20F24C000D841F /* Project object */;
+			containerPortal = CD0B98271E4C59B000D3E247 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD80DAB11E20F24C000D841F;
+			remoteGlobalIDString = CD0B982E1E4C59B000D3E247;
 			remoteInfo = YeeNewsChannel;
 		};
-		CD80DAD71E20F24D000D841F /* PBXContainerItemProxy */ = {
+		CD0B98541E4C59B000D3E247 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CD80DAAA1E20F24C000D841F /* Project object */;
+			containerPortal = CD0B98271E4C59B000D3E247 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD80DAB11E20F24C000D841F;
+			remoteGlobalIDString = CD0B982E1E4C59B000D3E247;
 			remoteInfo = YeeNewsChannel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD80DAB21E20F24C000D841F /* YeeNewsChannel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeNewsChannel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD80DAB61E20F24C000D841F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD80DAB81E20F24C000D841F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD80DAB91E20F24C000D841F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD80DABB1E20F24C000D841F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD80DABC1E20F24C000D841F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD80DAC11E20F24C000D841F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD80DAC61E20F24C000D841F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD80DACB1E20F24C000D841F /* YeeNewsChannelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeNewsChannelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD80DACF1E20F24D000D841F /* YeeNewsChannelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeNewsChannelTests.m; sourceTree = "<group>"; };
-		CD80DAD11E20F24D000D841F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD80DAD61E20F24D000D841F /* YeeNewsChannelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeNewsChannelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD80DADA1E20F24D000D841F /* YeeNewsChannelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeNewsChannelUITests.m; sourceTree = "<group>"; };
-		CD80DADC1E20F24D000D841F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD80DAEF1E20F3CA000D841F /* YeeChannelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeChannelCollectionViewCell.h; sourceTree = "<group>"; };
-		CD80DAF01E20F3CA000D841F /* YeeChannelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeChannelCollectionViewCell.m; sourceTree = "<group>"; };
-		CD80DAF21E20F6AB000D841F /* WJItemsControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJItemsControlView.h; sourceTree = "<group>"; };
-		CD80DAF31E20F6AB000D841F /* WJItemsControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJItemsControlView.m; sourceTree = "<group>"; };
-		CDE6A3711E221654005DFF5B /* YeeChannelPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeChannelPageView.h; sourceTree = "<group>"; };
-		CDE6A3721E221654005DFF5B /* YeeChannelPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeChannelPageView.m; sourceTree = "<group>"; };
+		438A3FDBBB95E849D5890982 /* Pods-YeeNewsChannel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeNewsChannel.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeNewsChannel/Pods-YeeNewsChannel.release.xcconfig"; sourceTree = "<group>"; };
+		986FE33C7882611DD90ABD7D /* Pods-YeeNewsChannel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeNewsChannel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeNewsChannel/Pods-YeeNewsChannel.debug.xcconfig"; sourceTree = "<group>"; };
+		B2B07AA245CF17C2823BC2EF /* Pods_YeeNewsChannel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YeeNewsChannel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B982F1E4C59B000D3E247 /* YeeNewsChannel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeNewsChannel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B98331E4C59B000D3E247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD0B98351E4C59B000D3E247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD0B98361E4C59B000D3E247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD0B983E1E4C59B000D3E247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0B98431E4C59B000D3E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0B98481E4C59B000D3E247 /* YeeNewsChannelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeNewsChannelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B984C1E4C59B000D3E247 /* YeeNewsChannelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeNewsChannelTests.m; sourceTree = "<group>"; };
+		CD0B984E1E4C59B000D3E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0B98531E4C59B000D3E247 /* YeeNewsChannelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeNewsChannelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0B98571E4C59B000D3E247 /* YeeNewsChannelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeNewsChannelUITests.m; sourceTree = "<group>"; };
+		CD0B98591E4C59B000D3E247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD80DAAF1E20F24C000D841F /* Frameworks */ = {
+		CD0B982C1E4C59B000D3E247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16CF8CEF2FD7ABFC665BE8E /* Pods_YeeNewsChannel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B98451E4C59B000D3E247 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD80DAC81E20F24C000D841F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD80DAD31E20F24D000D841F /* Frameworks */ = {
+		CD0B98501E4C59B000D3E247 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,90 +76,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD80DAA91E20F24C000D841F = {
+		02A434F4E4F5DCB210C7E772 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD80DAB41E20F24C000D841F /* YeeNewsChannel */,
-				CD80DACE1E20F24D000D841F /* YeeNewsChannelTests */,
-				CD80DAD91E20F24D000D841F /* YeeNewsChannelUITests */,
-				CD80DAB31E20F24C000D841F /* Products */,
+				B2B07AA245CF17C2823BC2EF /* Pods_YeeNewsChannel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A050026E362F234A469347F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986FE33C7882611DD90ABD7D /* Pods-YeeNewsChannel.debug.xcconfig */,
+				438A3FDBBB95E849D5890982 /* Pods-YeeNewsChannel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD0B98261E4C59B000D3E247 = {
+			isa = PBXGroup;
+			children = (
+				CD0B98311E4C59B000D3E247 /* YeeNewsChannel */,
+				CD0B984B1E4C59B000D3E247 /* YeeNewsChannelTests */,
+				CD0B98561E4C59B000D3E247 /* YeeNewsChannelUITests */,
+				CD0B98301E4C59B000D3E247 /* Products */,
+				4A050026E362F234A469347F /* Pods */,
+				02A434F4E4F5DCB210C7E772 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		CD80DAB31E20F24C000D841F /* Products */ = {
+		CD0B98301E4C59B000D3E247 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD80DAB21E20F24C000D841F /* YeeNewsChannel.app */,
-				CD80DACB1E20F24C000D841F /* YeeNewsChannelTests.xctest */,
-				CD80DAD61E20F24D000D841F /* YeeNewsChannelUITests.xctest */,
+				CD0B982F1E4C59B000D3E247 /* YeeNewsChannel.app */,
+				CD0B98481E4C59B000D3E247 /* YeeNewsChannelTests.xctest */,
+				CD0B98531E4C59B000D3E247 /* YeeNewsChannelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD80DAB41E20F24C000D841F /* YeeNewsChannel */ = {
+		CD0B98311E4C59B000D3E247 /* YeeNewsChannel */ = {
 			isa = PBXGroup;
 			children = (
-				CD80DAE81E20F297000D841F /* YeeChannelClass */,
-				CD80DAB81E20F24C000D841F /* AppDelegate.h */,
-				CD80DAB91E20F24C000D841F /* AppDelegate.m */,
-				CD80DABB1E20F24C000D841F /* ViewController.h */,
-				CD80DABC1E20F24C000D841F /* ViewController.m */,
-				CD80DAC11E20F24C000D841F /* Assets.xcassets */,
-				CD80DAC61E20F24C000D841F /* Info.plist */,
-				CD80DAB51E20F24C000D841F /* Supporting Files */,
+				CD0B98351E4C59B000D3E247 /* AppDelegate.h */,
+				CD0B98361E4C59B000D3E247 /* AppDelegate.m */,
+				CD0B983E1E4C59B000D3E247 /* Assets.xcassets */,
+				CD0B98431E4C59B000D3E247 /* Info.plist */,
+				CD0B98321E4C59B000D3E247 /* Supporting Files */,
 			);
 			path = YeeNewsChannel;
 			sourceTree = "<group>";
 		};
-		CD80DAB51E20F24C000D841F /* Supporting Files */ = {
+		CD0B98321E4C59B000D3E247 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD80DAB61E20F24C000D841F /* main.m */,
+				CD0B98331E4C59B000D3E247 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CD80DACE1E20F24D000D841F /* YeeNewsChannelTests */ = {
+		CD0B984B1E4C59B000D3E247 /* YeeNewsChannelTests */ = {
 			isa = PBXGroup;
 			children = (
-				CD80DACF1E20F24D000D841F /* YeeNewsChannelTests.m */,
-				CD80DAD11E20F24D000D841F /* Info.plist */,
+				CD0B984C1E4C59B000D3E247 /* YeeNewsChannelTests.m */,
+				CD0B984E1E4C59B000D3E247 /* Info.plist */,
 			);
 			path = YeeNewsChannelTests;
 			sourceTree = "<group>";
 		};
-		CD80DAD91E20F24D000D841F /* YeeNewsChannelUITests */ = {
+		CD0B98561E4C59B000D3E247 /* YeeNewsChannelUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CD80DADA1E20F24D000D841F /* YeeNewsChannelUITests.m */,
-				CD80DADC1E20F24D000D841F /* Info.plist */,
+				CD0B98571E4C59B000D3E247 /* YeeNewsChannelUITests.m */,
+				CD0B98591E4C59B000D3E247 /* Info.plist */,
 			);
 			path = YeeNewsChannelUITests;
-			sourceTree = "<group>";
-		};
-		CD80DAE81E20F297000D841F /* YeeChannelClass */ = {
-			isa = PBXGroup;
-			children = (
-				CD80DAF21E20F6AB000D841F /* WJItemsControlView.h */,
-				CD80DAF31E20F6AB000D841F /* WJItemsControlView.m */,
-				CDE6A3711E221654005DFF5B /* YeeChannelPageView.h */,
-				CDE6A3721E221654005DFF5B /* YeeChannelPageView.m */,
-				CD80DAEF1E20F3CA000D841F /* YeeChannelCollectionViewCell.h */,
-				CD80DAF01E20F3CA000D841F /* YeeChannelCollectionViewCell.m */,
-			);
-			path = YeeChannelClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD80DAB11E20F24C000D841F /* YeeNewsChannel */ = {
+		CD0B982E1E4C59B000D3E247 /* YeeNewsChannel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD80DADF1E20F24D000D841F /* Build configuration list for PBXNativeTarget "YeeNewsChannel" */;
+			buildConfigurationList = CD0B985C1E4C59B000D3E247 /* Build configuration list for PBXNativeTarget "YeeNewsChannel" */;
 			buildPhases = (
-				CD80DAAE1E20F24C000D841F /* Sources */,
-				CD80DAAF1E20F24C000D841F /* Frameworks */,
-				CD80DAB01E20F24C000D841F /* Resources */,
+				B7E5642398B8F1B58FA6F4CB /* [CP] Check Pods Manifest.lock */,
+				CD0B982B1E4C59B000D3E247 /* Sources */,
+				CD0B982C1E4C59B000D3E247 /* Frameworks */,
+				CD0B982D1E4C59B000D3E247 /* Resources */,
+				188D038B79A7DEA86C600D52 /* [CP] Embed Pods Frameworks */,
+				9913BD06399D75311B692E96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,71 +173,74 @@
 			);
 			name = YeeNewsChannel;
 			productName = YeeNewsChannel;
-			productReference = CD80DAB21E20F24C000D841F /* YeeNewsChannel.app */;
+			productReference = CD0B982F1E4C59B000D3E247 /* YeeNewsChannel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD80DACA1E20F24C000D841F /* YeeNewsChannelTests */ = {
+		CD0B98471E4C59B000D3E247 /* YeeNewsChannelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD80DAE21E20F24D000D841F /* Build configuration list for PBXNativeTarget "YeeNewsChannelTests" */;
+			buildConfigurationList = CD0B985F1E4C59B000D3E247 /* Build configuration list for PBXNativeTarget "YeeNewsChannelTests" */;
 			buildPhases = (
-				CD80DAC71E20F24C000D841F /* Sources */,
-				CD80DAC81E20F24C000D841F /* Frameworks */,
-				CD80DAC91E20F24C000D841F /* Resources */,
+				CD0B98441E4C59B000D3E247 /* Sources */,
+				CD0B98451E4C59B000D3E247 /* Frameworks */,
+				CD0B98461E4C59B000D3E247 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD80DACD1E20F24D000D841F /* PBXTargetDependency */,
+				CD0B984A1E4C59B000D3E247 /* PBXTargetDependency */,
 			);
 			name = YeeNewsChannelTests;
 			productName = YeeNewsChannelTests;
-			productReference = CD80DACB1E20F24C000D841F /* YeeNewsChannelTests.xctest */;
+			productReference = CD0B98481E4C59B000D3E247 /* YeeNewsChannelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CD80DAD51E20F24D000D841F /* YeeNewsChannelUITests */ = {
+		CD0B98521E4C59B000D3E247 /* YeeNewsChannelUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD80DAE51E20F24D000D841F /* Build configuration list for PBXNativeTarget "YeeNewsChannelUITests" */;
+			buildConfigurationList = CD0B98621E4C59B000D3E247 /* Build configuration list for PBXNativeTarget "YeeNewsChannelUITests" */;
 			buildPhases = (
-				CD80DAD21E20F24D000D841F /* Sources */,
-				CD80DAD31E20F24D000D841F /* Frameworks */,
-				CD80DAD41E20F24D000D841F /* Resources */,
+				CD0B984F1E4C59B000D3E247 /* Sources */,
+				CD0B98501E4C59B000D3E247 /* Frameworks */,
+				CD0B98511E4C59B000D3E247 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD80DAD81E20F24D000D841F /* PBXTargetDependency */,
+				CD0B98551E4C59B000D3E247 /* PBXTargetDependency */,
 			);
 			name = YeeNewsChannelUITests;
 			productName = YeeNewsChannelUITests;
-			productReference = CD80DAD61E20F24D000D841F /* YeeNewsChannelUITests.xctest */;
+			productReference = CD0B98531E4C59B000D3E247 /* YeeNewsChannelUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD80DAAA1E20F24C000D841F /* Project object */ = {
+		CD0B98271E4C59B000D3E247 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = YeeNewsChannel;
+				ORGANIZATIONNAME = CoderYee;
 				TargetAttributes = {
-					CD80DAB11E20F24C000D841F = {
+					CD0B982E1E4C59B000D3E247 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 34TTMZE623;
 						ProvisioningStyle = Automatic;
 					};
-					CD80DACA1E20F24C000D841F = {
+					CD0B98471E4C59B000D3E247 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 34TTMZE623;
 						ProvisioningStyle = Automatic;
-						TestTargetID = CD80DAB11E20F24C000D841F;
+						TestTargetID = CD0B982E1E4C59B000D3E247;
 					};
-					CD80DAD51E20F24D000D841F = {
+					CD0B98521E4C59B000D3E247 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 34TTMZE623;
 						ProvisioningStyle = Automatic;
-						TestTargetID = CD80DAB11E20F24C000D841F;
+						TestTargetID = CD0B982E1E4C59B000D3E247;
 					};
 				};
 			};
-			buildConfigurationList = CD80DAAD1E20F24C000D841F /* Build configuration list for PBXProject "YeeNewsChannel" */;
+			buildConfigurationList = CD0B982A1E4C59B000D3E247 /* Build configuration list for PBXProject "YeeNewsChannel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -246,35 +248,35 @@
 				en,
 				Base,
 			);
-			mainGroup = CD80DAA91E20F24C000D841F;
-			productRefGroup = CD80DAB31E20F24C000D841F /* Products */;
+			mainGroup = CD0B98261E4C59B000D3E247;
+			productRefGroup = CD0B98301E4C59B000D3E247 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD80DAB11E20F24C000D841F /* YeeNewsChannel */,
-				CD80DACA1E20F24C000D841F /* YeeNewsChannelTests */,
-				CD80DAD51E20F24D000D841F /* YeeNewsChannelUITests */,
+				CD0B982E1E4C59B000D3E247 /* YeeNewsChannel */,
+				CD0B98471E4C59B000D3E247 /* YeeNewsChannelTests */,
+				CD0B98521E4C59B000D3E247 /* YeeNewsChannelUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD80DAB01E20F24C000D841F /* Resources */ = {
+		CD0B982D1E4C59B000D3E247 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD80DAC21E20F24C000D841F /* Assets.xcassets in Resources */,
+				CD0B983F1E4C59B000D3E247 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD80DAC91E20F24C000D841F /* Resources */ = {
+		CD0B98461E4C59B000D3E247 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD80DAD41E20F24D000D841F /* Resources */ = {
+		CD0B98511E4C59B000D3E247 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,53 +285,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		188D038B79A7DEA86C600D52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeeNewsChannel/Pods-YeeNewsChannel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9913BD06399D75311B692E96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeeNewsChannel/Pods-YeeNewsChannel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E5642398B8F1B58FA6F4CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		CD80DAAE1E20F24C000D841F /* Sources */ = {
+		CD0B982B1E4C59B000D3E247 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD80DAF41E20F6AB000D841F /* WJItemsControlView.m in Sources */,
-				CD80DAF11E20F3CA000D841F /* YeeChannelCollectionViewCell.m in Sources */,
-				CD80DABD1E20F24C000D841F /* ViewController.m in Sources */,
-				CD80DABA1E20F24C000D841F /* AppDelegate.m in Sources */,
-				CD80DAB71E20F24C000D841F /* main.m in Sources */,
-				CDE6A3731E221654005DFF5B /* YeeChannelPageView.m in Sources */,
+				CD0B98371E4C59B000D3E247 /* AppDelegate.m in Sources */,
+				CD0B98341E4C59B000D3E247 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD80DAC71E20F24C000D841F /* Sources */ = {
+		CD0B98441E4C59B000D3E247 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD80DAD01E20F24D000D841F /* YeeNewsChannelTests.m in Sources */,
+				CD0B984D1E4C59B000D3E247 /* YeeNewsChannelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD80DAD21E20F24D000D841F /* Sources */ = {
+		CD0B984F1E4C59B000D3E247 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD80DADB1E20F24D000D841F /* YeeNewsChannelUITests.m in Sources */,
+				CD0B98581E4C59B000D3E247 /* YeeNewsChannelUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD80DACD1E20F24D000D841F /* PBXTargetDependency */ = {
+		CD0B984A1E4C59B000D3E247 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD80DAB11E20F24C000D841F /* YeeNewsChannel */;
-			targetProxy = CD80DACC1E20F24D000D841F /* PBXContainerItemProxy */;
+			target = CD0B982E1E4C59B000D3E247 /* YeeNewsChannel */;
+			targetProxy = CD0B98491E4C59B000D3E247 /* PBXContainerItemProxy */;
 		};
-		CD80DAD81E20F24D000D841F /* PBXTargetDependency */ = {
+		CD0B98551E4C59B000D3E247 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD80DAB11E20F24C000D841F /* YeeNewsChannel */;
-			targetProxy = CD80DAD71E20F24D000D841F /* PBXContainerItemProxy */;
+			target = CD0B982E1E4C59B000D3E247 /* YeeNewsChannel */;
+			targetProxy = CD0B98541E4C59B000D3E247 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CD80DADD1E20F24D000D841F /* Debug */ = {
+		CD0B985A1E4C59B000D3E247 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		CD80DADE1E20F24D000D841F /* Release */ = {
+		CD0B985B1E4C59B000D3E247 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,71 +463,79 @@
 			};
 			name = Release;
 		};
-		CD80DAE01E20F24D000D841F /* Debug */ = {
+		CD0B985D1E4C59B000D3E247 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986FE33C7882611DD90ABD7D /* Pods-YeeNewsChannel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeNewsChannel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YeeCoder.YeeNewsChannel;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderYee.YeeNewsChannel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CD80DAE11E20F24D000D841F /* Release */ = {
+		CD0B985E1E4C59B000D3E247 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438A3FDBBB95E849D5890982 /* Pods-YeeNewsChannel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeNewsChannel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YeeCoder.YeeNewsChannel;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderYee.YeeNewsChannel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		CD80DAE31E20F24D000D841F /* Debug */ = {
+		CD0B98601E4C59B000D3E247 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeNewsChannelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YeeCoder.YeeNewsChannelTests;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderYee.YeeNewsChannelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeNewsChannel.app/YeeNewsChannel";
 			};
 			name = Debug;
 		};
-		CD80DAE41E20F24D000D841F /* Release */ = {
+		CD0B98611E4C59B000D3E247 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeNewsChannelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YeeCoder.YeeNewsChannelTests;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderYee.YeeNewsChannelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeNewsChannel.app/YeeNewsChannel";
 			};
 			name = Release;
 		};
-		CD80DAE61E20F24D000D841F /* Debug */ = {
+		CD0B98631E4C59B000D3E247 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeNewsChannelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YeeCoder.YeeNewsChannelUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderYee.YeeNewsChannelUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = YeeNewsChannel;
 			};
 			name = Debug;
 		};
-		CD80DAE71E20F24D000D841F /* Release */ = {
+		CD0B98641E4C59B000D3E247 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeNewsChannelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YeeCoder.YeeNewsChannelUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderYee.YeeNewsChannelUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = YeeNewsChannel;
 			};
@@ -490,43 +544,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD80DAAD1E20F24C000D841F /* Build configuration list for PBXProject "YeeNewsChannel" */ = {
+		CD0B982A1E4C59B000D3E247 /* Build configuration list for PBXProject "YeeNewsChannel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD80DADD1E20F24D000D841F /* Debug */,
-				CD80DADE1E20F24D000D841F /* Release */,
+				CD0B985A1E4C59B000D3E247 /* Debug */,
+				CD0B985B1E4C59B000D3E247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD80DADF1E20F24D000D841F /* Build configuration list for PBXNativeTarget "YeeNewsChannel" */ = {
+		CD0B985C1E4C59B000D3E247 /* Build configuration list for PBXNativeTarget "YeeNewsChannel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD80DAE01E20F24D000D841F /* Debug */,
-				CD80DAE11E20F24D000D841F /* Release */,
+				CD0B985D1E4C59B000D3E247 /* Debug */,
+				CD0B985E1E4C59B000D3E247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD80DAE21E20F24D000D841F /* Build configuration list for PBXNativeTarget "YeeNewsChannelTests" */ = {
+		CD0B985F1E4C59B000D3E247 /* Build configuration list for PBXNativeTarget "YeeNewsChannelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD80DAE31E20F24D000D841F /* Debug */,
-				CD80DAE41E20F24D000D841F /* Release */,
+				CD0B98601E4C59B000D3E247 /* Debug */,
+				CD0B98611E4C59B000D3E247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD80DAE51E20F24D000D841F /* Build configuration list for PBXNativeTarget "YeeNewsChannelUITests" */ = {
+		CD0B98621E4C59B000D3E247 /* Build configuration list for PBXNativeTarget "YeeNewsChannelUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD80DAE61E20F24D000D841F /* Debug */,
-				CD80DAE71E20F24D000D841F /* Release */,
+				CD0B98631E4C59B000D3E247 /* Debug */,
+				CD0B98641E4C59B000D3E247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD80DAAA1E20F24C000D841F /* Project object */;
+	rootObject = CD0B98271E4C59B000D3E247 /* Project object */;
 }

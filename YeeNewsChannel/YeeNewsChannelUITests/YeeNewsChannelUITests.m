@@ -2,8 +2,8 @@
 //  YeeNewsChannelUITests.m
 //  YeeNewsChannelUITests
 //
-//  Created by 余伟 on 2017/1/7.
-//  Copyright © 2017年 YeeNewsChannel. All rights reserved.
+//  Created by CoderYee on 2017/2/9.
+//  Copyright © 2017年 CoderYee. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

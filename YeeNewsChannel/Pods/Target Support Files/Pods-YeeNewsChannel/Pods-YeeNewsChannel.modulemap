@@ -1,0 +1,6 @@
+framework module Pods_YeeNewsChannel {
+  umbrella header "Pods-YeeNewsChannel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,30 +2,20 @@
 //  AppDelegate.m
 //  YeeNewsChannel
 //
-//  Created by 余伟 on 2017/1/7.
-//  Copyright © 2017年 YeeNewsChannel. All rights reserved.
+//  Created by CoderYee on 2017/2/9.
+//  Copyright © 2017年 CoderYee. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+
 @interface AppDelegate ()
-{
-    
-    
-}
+
 @end
 
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    ViewController *root=[[ViewController alloc] init];
-    self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:root];
-    [self.window setBackgroundColor:[UIColor whiteColor]];
-    [self.window makeKeyAndVisible];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD80DAB11E20F24C000D841F"
+               BlueprintIdentifier = "CD0B982E1E4C59B000D3E247"
                BuildableName = "YeeNewsChannel.app"
                BlueprintName = "YeeNewsChannel"
                ReferencedContainer = "container:YeeNewsChannel.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD80DACA1E20F24C000D841F"
+               BlueprintIdentifier = "CD0B98471E4C59B000D3E247"
                BuildableName = "YeeNewsChannelTests.xctest"
                BlueprintName = "YeeNewsChannelTests"
                ReferencedContainer = "container:YeeNewsChannel.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD80DAD51E20F24D000D841F"
+               BlueprintIdentifier = "CD0B98521E4C59B000D3E247"
                BuildableName = "YeeNewsChannelUITests.xctest"
                BlueprintName = "YeeNewsChannelUITests"
                ReferencedContainer = "container:YeeNewsChannel.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD80DAB11E20F24C000D841F"
+            BlueprintIdentifier = "CD0B982E1E4C59B000D3E247"
             BuildableName = "YeeNewsChannel.app"
             BlueprintName = "YeeNewsChannel"
             ReferencedContainer = "container:YeeNewsChannel.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD80DAB11E20F24C000D841F"
+            BlueprintIdentifier = "CD0B982E1E4C59B000D3E247"
             BuildableName = "YeeNewsChannel.app"
             BlueprintName = "YeeNewsChannel"
             ReferencedContainer = "container:YeeNewsChannel.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD80DAB11E20F24C000D841F"
+            BlueprintIdentifier = "CD0B982E1E4C59B000D3E247"
             BuildableName = "YeeNewsChannel.app"
             BlueprintName = "YeeNewsChannel"
             ReferencedContainer = "container:YeeNewsChannel.xcodeproj">
