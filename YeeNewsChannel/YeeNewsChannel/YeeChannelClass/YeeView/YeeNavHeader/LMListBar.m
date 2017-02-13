@@ -138,7 +138,6 @@
 
 }
 -(void)operationFromBlock:(animateType)type channelModel:(YeeChannelModel *)channelModel
-
 {
     switch (type)
     {
