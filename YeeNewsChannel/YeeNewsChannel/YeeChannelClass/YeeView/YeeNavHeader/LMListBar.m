@@ -77,13 +77,25 @@
             self.listBarItemClickBlock(sender.channeModel);
         }
     }
-    [UIView animateWithDuration:0.3 animations:^{
-        CGPoint changePoint;
-        if (sender.frame.origin.x >= kScreenW - 150 && sender.frame.origin.x < self.contentSize.width-200) {changePoint = CGPointMake(sender.frame.origin.x - 200, 0);}
-        else if (sender.frame.origin.x >= self.contentSize.width-200){changePoint = CGPointMake(self.contentSize.width-350, 0);}
-        else{changePoint = CGPointMake(0, 0);}
-        self.contentOffset = changePoint;
-    }];
+        // 设置标题滚动区域的偏移量
+        CGFloat offsetX = sender.center.x - self.frame.size.width * 0.5;
+        if (offsetX < 0)
+        {
+            offsetX = 0;
+        }
+        // 计算下最大的标题视图滚动区域
+        CGFloat maxOffsetX = self.contentSize.width - self.frame.size.width + padding;
+        if (maxOffsetX < 0)
+        {
+            maxOffsetX = 0;
+        }
+        
+        if (offsetX > maxOffsetX)
+        {
+            offsetX = maxOffsetX;
+        }
+        // 滚动区域
+        [self setContentOffset:CGPointMake(offsetX, 0) animated:YES];
 }
 
 -(void)itemClickByScrollerWithIndex:(NSInteger)index
@@ -100,14 +112,30 @@
         [sender setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
         self.btnSelect = sender;
     }
-    [UIView animateWithDuration:0.3 animations:^{
-        CGPoint changePoint;
-        if (sender.frame.origin.x >= kScreenW - 150 && sender.frame.origin.x < self.contentSize.width-200) {changePoint = CGPointMake(sender.frame.origin.x - 200, 0);}
-        else if (sender.frame.origin.x >= self.contentSize.width-200){changePoint = CGPointMake(self.contentSize.width-350, 0);}
-        else{changePoint = CGPointMake(0, 0);}
-        self.contentOffset = changePoint;
-        
-    }];
+ 
+    
+    // 设置标题滚动区域的偏移量
+    CGFloat offsetX = sender.center.x - self.frame.size.width * 0.5;
+    if (offsetX < 0)
+    {
+        offsetX = 0;
+    }
+    // 计算下最大的标题视图滚动区域
+    CGFloat maxOffsetX = self.contentSize.width - self.frame.size.width + padding;
+    
+    if (maxOffsetX < 0)
+    {
+        maxOffsetX = 0;
+    }
+    
+    if (offsetX > maxOffsetX)
+    {
+        offsetX = maxOffsetX;
+    }
+    // 滚动区域
+    [self setContentOffset:CGPointMake(offsetX, 0) animated:YES];
+    
+
 }
 -(void)operationFromBlock:(animateType)type channelModel:(YeeChannelModel *)channelModel
 

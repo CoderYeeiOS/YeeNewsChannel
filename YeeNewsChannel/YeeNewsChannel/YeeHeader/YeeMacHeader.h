@@ -24,6 +24,9 @@ static __inline__ CGFloat MainScreenHeight()
 {
     return UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation) ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width;
 }
+#define paths             [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
 
+#define NewsTopArrPath    [paths stringByAppendingString:@"/leaderTop.plist"]
+#define NewsBottomArrPath [paths stringByAppendingString:@"/leaderTopBottom.plist"]
 
 #endif /* YeeMacHeader_h */

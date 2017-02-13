@@ -9,5 +9,5 @@
 #import "YeeChannelModel.h"
 
 @implementation YeeChannelModel
-
+MJCodingImplementation
 @end

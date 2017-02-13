@@ -208,10 +208,10 @@
         [self.bottomTitleArray addObject:item.channeModel];
     }
     
-//    
-//    //[NSKeyedArchiver archiveRootObject:self.topTitleArray toFile:NewsTopArrPath];//将之前的频道放到本地
-//    [NSKeyedArchiver archiveRootObject:self.bottomTitleArray toFile:NewsBottomArrPath];//将之前的频道放到本
-//    
+    
+    [NSKeyedArchiver archiveRootObject:self.topTitleArray toFile:NewsTopArrPath];//将之前的频道放到本地
+    [NSKeyedArchiver archiveRootObject:self.bottomTitleArray toFile:NewsBottomArrPath];//将之前的频道放到本
+//
 //    
 //    //发送通知
   [[NSNotificationCenter defaultCenter]postNotificationName:@"TabChangedRefreshMainVC" object:nil];

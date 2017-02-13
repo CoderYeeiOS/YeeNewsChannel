@@ -68,7 +68,7 @@
     __weak typeof(self) unself = self;
     //顶部导航栏
     if (!self.listBar) {
-        self.listBar = [[LMListBar alloc] initWithFrame:CGRectMake(0, 0, kScreenW, kListBarH)];
+        self.listBar = [[LMListBar alloc] initWithFrame:CGRectMake(0, 0, kScreenW-30, kListBarH)];
         self.listBar.scrollsToTop = NO;
         self.listBar.visibleItemList = self.listTop;
         self.listBar.arrowChange = ^()
@@ -143,6 +143,24 @@
 #pragma mark - 刷新页面
 -(void)refreshCollectionView
 {
+    
+    
+    self.listTop=[NSKeyedUnarchiver unarchiveObjectWithFile:NewsTopArrPath];
+    self.listBottom=[NSKeyedUnarchiver unarchiveObjectWithFile:NewsBottomArrPath];
+    [self.swipeTableView reloadData];
+    //重新计算偏移量
+    for (int i=0; i<self.listTop.count; i++)
+    {
+        YeeChannelModel *channelModel=self.listTop[i];
+        if ([ channelModel.channelId isEqualToString:self.listBar.btnSelect.channeModel.channelId])
+        {
+            //再次点击当前被选中的。
+            [self.listBar itemClickByScrollerWithIndex:i];
+            [self.swipeTableView scrollToItemAtIndex:i animated:YES];
+        }
+    }
+
+    
 //    self.listTop=[NSKeyedUnarchiver unarchiveObjectWithFile:NewsTopArrPath];
 //    self.listBottom=[NSKeyedUnarchiver unarchiveObjectWithFile:NewsBottomArrPath];
      [self.swipeTableView reloadData];
@@ -188,7 +206,6 @@
     CustomTableView* tableView= (CustomTableView*) swipeView.currentItemView;
     [tableView.mj_header endRefreshing];
     [tableView.mj_footer endRefreshing];
-    
 }
 - (void)swipeTableViewDidEndDragging:(SwipeTableView *)swipeView willDecelerate:(BOOL)decelerate
 {
@@ -228,9 +245,8 @@
 {
     if (!_listTop)
     {
-        
         _listTop = [[NSMutableArray alloc] init];
-        NSArray *temp = @[@"电影",@"数码",@"时尚",@"奇葩",@"游戏",@"旅游",@"育儿",@"减肥",@"养生",@"美食",@"政务",@"历史",@"探索",@"故事",@"美文",@"情感",@"语录",@"美图",@"房产",@"家居",@"搞笑",@"星座",@"文化",@"毕业生",@"视频"];
+        NSArray *temp = @[@"推荐",@"电影",@"数码",@"时尚",@"奇葩",@"游戏",@"旅游",@"育儿",@"减肥",@"养生",@"美食",@"政务",@"历史",@"探索",@"故事",@"美文",@"情感",@"语录",@"美图",@"房产",@"家居",@"搞笑",@"星座",@"文化",@"毕业生",@"视频"];
         for (NSInteger i=0; i<temp.count; i++)
         {
             YeeChannelModel *model=[[YeeChannelModel alloc] init];
@@ -244,8 +260,7 @@
 -(NSMutableArray *)listBottom
 {
     if (!_listBottom)
-    {
-        _listBottom = [[NSMutableArray alloc] init];
+    {  _listBottom = [[NSMutableArray alloc] init];
         NSArray *temp = @[@"推荐",@"热点",@"杭州",@"社会",@"娱乐",@"科技",@"汽车",@"体育",@"订阅",@"财经",@"军事",@"国际",@"正能量",@"段子",@"趣图",@"美女",@"健康",@"教育",@"特卖",@"彩票",@"辟谣"];
         for (NSInteger i=0; i<temp.count; i++)
         {
@@ -263,23 +278,12 @@
     static NSInteger kNumber = 15;
     NSString *sourceStr = @"0123456789ABCDEFGHIJKLMNOPQRST";
     NSMutableString *resultStr = [[NSMutableString alloc] init];
-    //srand(time(0));
     for (int i = 0; i < kNumber; i++)
-    {
-        unsigned index = rand() % [sourceStr length];
+    {   unsigned index = rand() % [sourceStr length];
         NSString *oneStr = [sourceStr substringWithRange:NSMakeRange(index, 1)];
         [resultStr appendString:oneStr];
     }
     return resultStr;
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
